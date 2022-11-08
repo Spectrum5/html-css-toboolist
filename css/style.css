@@ -95,7 +95,7 @@ li {
 h3 {
     display: inline-block;
 }
-/* Cerchio per check e uncheck */
+/* struttura Cerchio per check e uncheck */
 .list::before {
     border-radius: 50%;
     font-size: 12px;
@@ -120,3 +120,39 @@ h3 {
     content: '\2716';
     color: #eb5952;
 }
+
+/* struttura dei badge */
+
+.badge {
+    color: white;
+    padding: 4px 9px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.5em;
+    font-weight: lighter;
+  }
+
+
+  .badge.newsletter {
+    background-color: #45abe9;
+  }
+
+  .badge.goals {
+    background-color: #9c72e4;
+  }
+
+  .badge.recruiting {
+    background-color: #64c0a9;
+  }
+
+  .badge.mobile {
+    background-color: #f29e33;
+  }
+
+  .badge.website {
+    background-color: #d863a0;
+  }
+
+  .badge.sales {
+    background-color: #b0c926;
+  }
