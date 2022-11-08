@@ -62,3 +62,20 @@ h1  {
     border: 1px solid #e0e3e6
 }
 /* Fine primo container */
+
+/* Inizio secondo container */
+.container-list {
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #FFFFFF;
+    padding: 30px 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0;
+}
