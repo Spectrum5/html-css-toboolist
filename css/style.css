@@ -25,3 +25,39 @@ h1  {
     font-size: 30px;
     display: inline-block;
 }
+
+/* primo container */
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px 10px 0 0px;
+    background-color: #FFFFFF;
+
+}
+
+.container-button {
+    margin-left: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.container-button button {
+    background-color: transparent;
+    line-height: 23px;
+    font-size: 0.6em;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.container-button .selected {
+    background-color: #47adf1;
+    color: #FFFFFF;
+    border: 1px solid #c5e6f9;
+}
+
+.container-button .unselected {
+    background-color: transparent;
+    color: #d8dcdf;
+    border: 1px solid #e0e3e6
+}
