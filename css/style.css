@@ -33,6 +33,7 @@ h1  {
     margin: 50px auto;
     border-radius: 10px 10px 0 0px;
     background-color: #FFFFFF;
+    margin-bottom: 0;
 
 }
 
@@ -70,6 +71,7 @@ h1  {
     border-radius: 0px 0px 10px 10px;
     background-color: #FFFFFF;
     padding: 30px 50px;
+    margin-top: 5px;
 }
 
 ul {
@@ -78,4 +80,43 @@ ul {
 
 li {
     padding: 5px 0;
+
+}
+
+/* Liste */
+
+
+.title-important::before {
+    content: '\23F7';
+}
+
+/* Freccia per titoli "li" */
+
+h3 {
+    display: inline-block;
+}
+/* Cerchio per check e uncheck */
+.list::before {
+    border-radius: 50%;
+    font-size: 12px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    line-height: 13px;
+    margin-left: 3px;
+    border: 1px solid currentColor;
+    display: inline-block;
+    text-align: center;
+}
+
+/* simbolo e colore del check */
+.list.check::before {
+    content: '\1F5F8';
+    color: #6ac3ad;
+}
+
+/* simbolo e colore uncheck */
+.list.uncheck::before {
+    content: '\2716';
+    color: #eb5952;
 }
