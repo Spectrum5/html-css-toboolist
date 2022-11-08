@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #F6F8F9;
+}
+
+/* header */
+
+header {
+    background-color: #FFFFFF;
+
+}
+
+.logo * {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+h1  {
+    font-size: 30px;
+    display: inline-block;
 }
