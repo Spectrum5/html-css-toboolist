@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+body {
     background-color: #F6F8F9;
 }
 
@@ -13,28 +15,28 @@ html {
 
 header {
     background-color: #FFFFFF;
-
+    padding: 5px;
 }
 
-.logo * {
+#main-logo {
+    height: 50px;
     vertical-align: middle;
-    padding: 5px;
 }
 
 h1  {
     font-size: 30px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 /* primo container */
 
 .container {
-    max-width: 1000px;
+    width: 60%;
     margin: 50px auto;
     border-radius: 10px 10px 0 0px;
     background-color: #FFFFFF;
     margin-bottom: 0;
-
 }
 
 .container-button {
@@ -44,7 +46,6 @@ h1  {
 }
 
 .container-button button {
-    background-color: transparent;
     line-height: 23px;
     font-size: 0.6em;
     border-radius: 6px;
@@ -66,7 +67,7 @@ h1  {
 
 /* Inizio secondo container */
 .container-list {
-    max-width: 1000px;
+    width: 60%;
     margin: 50px auto;
     border-radius: 0px 0px 10px 10px;
     background-color: #FFFFFF;
@@ -80,11 +81,9 @@ ul {
 
 li {
     padding: 5px 0;
-
 }
 
 /* Liste */
-
 
 .title-important::before {
     content: '\23F7';
@@ -126,12 +125,9 @@ h3 {
 .badge {
     color: white;
     padding: 4px 9px;
-    text-align: center;
     border-radius: 10px;
     font-size: 0.5em;
-    font-weight: lighter;
   }
-
 
   .badge.newsletter {
     background-color: #45abe9;
